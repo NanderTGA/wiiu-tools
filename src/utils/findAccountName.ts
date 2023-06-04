@@ -67,6 +67,9 @@ async function getAccountInfo(accountID: string | number, ftpClient: FTPClient) 
         miiName                  : hexStringToUTF16BE(rawAccountDAT.MiiName).replaceAll("\x00", ""),
         isMiiUpdated             : numberAsStringToBoolean(rawAccountDAT.IsMiiUpdated),
         accountId                : rawAccountDAT.AccountId || undefined,
+        birthYear                : parseInt(rawAccountDAT.BirthYear) || undefined,
+        birthMonth               : parseInt(rawAccountDAT.BirthYear) || undefined,
+        birthDay                 : parseInt(rawAccountDAT.BirthYear) || undefined,
     };
 
     return parsedAccountDAT;

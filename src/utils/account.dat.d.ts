@@ -20,39 +20,39 @@ export default interface AccountDAT {
     isMiiUpdated: boolean
     /** NNID */
     accountId?: string
-    birthYear: string
-    birthMonth: string
-    birthDay: string
+    birthYear?: number
+    birthMonth?: number
+    birthDay?: number
     gender: string
-    IsMailAddressValidated: string
-    EmailAddress: string
-    Country: string
-    SimpleAddressId: string
-    TimeZoneId: string
-    UtcOffset: string
-    PrincipalId: string
-    NfsPassword: string
-    EciVirtualAccount: string
-    NeedsToDownloadMiiImage: string
-    MiiImageUrl: string
-    AccountPasswordHash: string
-    IsPasswordCacheEnabled: string
-    AccountPasswordCache: string
-    NnasType: string
-    NfsType: string
-    NfsNo: string
-    NnasSubDomain: string
-    NnasNfsEnv: string
-    IsPersistentIdUploaded: string
-    IsConsoleAccountInfoUploaded: string
-    LastAuthenticationResult: string
-    StickyAccountId: string
-    NextAccountId: string
-    StickyPrincipalId: string
-    IsServerAccountDeleted: string
-    ServerAccountStatus: string
-    MiiImageLastModifiedDate: string
-    IsCommitted: string
+    isMailAddressValidated: string
+    emailAddress: string
+    country: string
+    simpleAddressId: string
+    timeZoneId: string
+    utcOffset: string
+    principalId: string
+    nfsPassword: string
+    eciVirtualAccount: string
+    needsToDownloadMiiImage: string
+    miiImageUrl: string
+    accountPasswordHash: string
+    isPasswordCacheEnabled: string
+    accountPasswordCache: string
+    nnasType: string
+    nfsType: string
+    nfsNo: string
+    nnasSubDomain: string
+    nnasNfsEnv: string
+    isPersistentIdUploaded: string
+    isConsoleAccountInfoUploaded: string
+    lastAuthenticationResult: string
+    stickyAccountId: string
+    nextAccountId: string
+    stickyPrincipalId: string
+    isServerAccountDeleted: string
+    serverAccountStatus: string
+    miiImageLastModifiedDate: string
+    isCommitted: string
 }
 
 export interface RawAccountDAT {
