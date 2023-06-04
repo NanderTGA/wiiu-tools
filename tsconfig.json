@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module"             : "ESNext",
+        "target"             : "ESNext",
+        "strictFunctionTypes": true,
+        "strict"             : true,
+        "esModuleInterop"    : true,
+        "moduleResolution"   : "Node",
+        "outDir"             : "./dist",
+        "declaration"        : true,
+        "declarationDir"     : "./dist",
+        "skipLibCheck"       : true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*",
+        "dist"
+    ],
+    "include": [
+        "src/**/*.ts",
+        "src/utils/comlog-ftp.cts"
+    ]
+}
