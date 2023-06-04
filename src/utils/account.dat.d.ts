@@ -1,0 +1,45 @@
+export default interface accountDAT {
+    AccountInstance: string
+    PersistentId: string
+    TransferableIdBase: string
+    Uuid: string
+    ParentalControlSlotNo: string
+    MiiData: string
+    MiiName: string
+    IsMiiUpdated: string
+    AccountId: string
+    BirthYear: string
+    BirthMonth: string
+    BirthDay: string
+    Gender: string
+    IsMailAddressValidated: string
+    EmailAddress: string
+    Country: string
+    SimpleAddressId: string
+    TimeZoneId: string
+    UtcOffset: string
+    PrincipalId: string
+    NfsPassword: string
+    EciVirtualAccount: string
+    NeedsToDownloadMiiImage: string
+    MiiImageUrl: string
+    AccountPasswordHash: string
+    IsPasswordCacheEnabled: string
+    AccountPasswordCache: string
+    NnasType: string
+    NfsType: string
+    NfsNo: string
+    NnasSubDomain: string
+    NnasNfsEnv: string
+    IsPersistentIdUploaded: string
+    IsConsoleAccountInfoUploaded: string
+    LastAuthenticationResult: string
+    StickyAccountId: string
+    NextAccountId: string
+    StickyPrincipalId: string
+    IsServerAccountDeleted: string
+    ServerAccountStatus: string
+    MiiImageLastModifiedDate: string
+    IsCommitted: string
+
+}
