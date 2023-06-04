@@ -1,7 +1,7 @@
 {
   "name": "wiiu-tools",
   "version": "0.0.1",
-  "description": "A collection of tools for wiiu",
+  "description": "A collection of tools for wiiu-related modding.",
   "main": "index.js",
   "type": "module",
   "scripts": {
